@@ -7,7 +7,7 @@ import {
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import trophy from '../assets/images/cup.png';
-const API_URL = `https://swapi.dev/api/starships`
+ 
 function Starships() {
     const [isLoading, setLoading] = useState(true);
     const [starWarsDataStarships, setStarWarsDataStarships] = useState();
