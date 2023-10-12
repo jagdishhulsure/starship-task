@@ -1,0 +1,80 @@
+ body {
+	background-color: #333;
+	color: whitesmoke;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: url("./assets/images/caci-background.jpg")
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Archivo", sans-serif;
+}
+
+.row { 
+  margin: 0;
+}
+
+.container-md {
+  text-align: center;
+}
+
+.star-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+button.btn.btn-primary {
+  margin: 10px;
+}
+
+section .btn-get-stars {
+  background: #FFE300;
+  color: #000;
+  border: 0;
+  font-weight: 600;
+}
+
+.col-wrapper.col {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.model-heading, 
+.model-name, 
+.no-of-films, 
+.films-count, 
+.col-inner-one h3
+ {
+  color: #FFE300;
+  text-align: left;
+  letter-spacing: 0;
+  opacity: 1;
+}
+.overlay h2 {
+  color: #FFE300;
+}
+
+.model-heading, 
+.no-of-films {
+  font-size: 24px;
+ 
+}
+@media (prefers-reduced-motion: no-preference) {
+  /* .star-logo {
+    animation: App-logo-spin infinite 20s linear;
+  } */
+} 
+ 
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
